@@ -1,10 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 
+function Name(){
+  return(
+    <div>
+      <p>Halo</p>
+    </div>
+  );
+}
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Name />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
