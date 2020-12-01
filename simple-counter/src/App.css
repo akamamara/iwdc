@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+h1{
+  margin: 0;
+  margin-bottom: 1.25rem;
+}
+
+h5{
+  margin: 0;
+  margin-bottom: 1.25rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
